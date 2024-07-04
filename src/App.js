@@ -12,7 +12,8 @@ import Workshop from "./Pages/Workshop";
 import SelfAssessment from "./Pages/SelfAssessment";
 function App() {
   return (
-    <div className="bg-[#e6e5e5] ">
+    <div className="bg-[#FFF8DB] ">
+      {/* bg-[#D2E9E9]   */}
       <Navbar></Navbar>
       <Routes>
         <Route path='AboutUs' element={<AboutUs></AboutUs>}/>
