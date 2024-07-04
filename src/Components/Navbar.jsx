@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import logo from '../assets/logo.png'
+import {Link } from 'react-router-dom'
 
 const Navbar = () => {
   // State to manage the navbar's visibility
@@ -13,14 +14,14 @@ const Navbar = () => {
 
   // Array containing navigation items
   const navItems = [
-    { id: 1, text: 'Home' },
-    { id: 2, text: 'About us' },
-    { id: 3, text: 'Self Assessment' },
-    { id: 4, text: 'Workshop' },
-    { id: 5, text: 'Group Therapies' }, 
-    { id: 6, text: 'Blogs' },
-    { id: 7, text: 'Offer' },
-    { id: 8, text: 'Contact us' },
+    { id: 1, text: 'Home', path:'/' },
+    { id: 2, text: 'About us', path:'/AboutUs' },
+    { id: 3, text: 'Self Assessment', path:'/SelfAssessment' },
+    { id: 4, text: 'Workshop', path:'/Workshop' },
+    { id: 5, text: 'Group Therapies', path:'/Group' }, 
+    { id: 6, text: 'Blogs', path:'/Blog' },
+    { id: 7, text: 'Offer', path:'/Offer' },
+    { id: 8, text: 'Contact us', path:'/ContactUs' },
   ];
 
   return (
@@ -32,12 +33,12 @@ const Navbar = () => {
       {/* Desktop Navigation */}
       <ul className='hidden md:flex'>
         {navItems.map(item => (
-          <li
+          <Link to={item.path}
             key={item.id}
             className='px-5 py-4 hover:bg-[#304463] rounded-xl m-2 text-[#FFF8DB] cursor-pointer duration-300 text-nowrap hover:text-[#FFF8DB]'
           >
             {item.text}
-          </li>
+          </Link>
         ))}
       </ul>
 

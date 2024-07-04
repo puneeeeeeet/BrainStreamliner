@@ -13,7 +13,7 @@ const Intro = () => {
         {/* Intro */}
         <div className='w-80 h-96 bg-[#7D8ABC] flex p-4 justify-center text-[#304463]'>
 
-          <div className='bg-[#FFF8DB]'>
+          <div className='bg-[#EEEEEE]'>
             <h1 className='text-2xl flex items-center justify-center'>
             We Are Psychopedia
             </h1>
