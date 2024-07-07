@@ -1,6 +1,4 @@
 import Navbar from "./Components/Navbar";
-import Slider from './Components/Slider';
-import Intro from './Components/Introduction';
 import { Routes, Route} from "react-router-dom";
 import AboutUs from "./Pages/AboutUs";
 import Home from "./Pages/Home";
@@ -12,7 +10,7 @@ import Workshop from "./Pages/Workshop";
 import SelfAssessment from "./Pages/SelfAssessment";
 function App() {
   return (
-    <div className="bg-[#FFF8DB] ">
+    <div className="bg-[#eaeaea] ">
       {/* bg-[#D2E9E9]   */}
       <Navbar></Navbar>
       <Routes>
