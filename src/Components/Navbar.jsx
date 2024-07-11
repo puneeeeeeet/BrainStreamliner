@@ -60,12 +60,12 @@ const Navbar = () => {
 
         {/* Mobile Navigation Items */}
         {navItems.map(item => (
-          <li
+          <Link to={item.path}
+          onClick={handleNav}
             key={item.id}
-            className='p-4  rounded-xl hover:bg-[#304463] duration-300 hover:text-[#FFF8DB] cursor-pointer '
-          >
+            className='p-4  flex rounded-xl hover:bg-[#304463] duration-300 hover:text-[#FFF8DB] cursor-pointer '>
             {item.text}
-          </li>
+          </Link>
         ))}
       </ul>
     </div>

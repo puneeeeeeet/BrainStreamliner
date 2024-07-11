@@ -3,16 +3,16 @@ import tamana from '../assets/tamana.jpg';
 const AboutUs = () => {
   return (
     <div>
-      <h1 className=' text-3xl sm:ml-24 sm:mt-6 text-[#434b6c]'>
+      <h1 className=' text-3xl ml-6 sm:ml-24 mt-5 text-[#434b6c]'>
         About Us
       </h1>
       {/* First Section */}
-      <div className='flex justify-center items-center py-3'>
-      <div className='w-80 mx-10 h-96   '>
+      <div className='flex flex-col sm:flex-row justify-center items-center py-4'>
+      <div className='w-80 mx-10 h-96'>
             <img src={tamana} className='h-full w-full'>
             </img>
         </div>
-        <div className='w-10/12 sm:w-96 h-full  flex  justify-center text-[#304463]'>
+        <div className='w-10/12 sm:w-96 h-full  flex  justify-center text-[#304463] py-4 sm:py-0'>
           <div className=''>
             <a href="https://www.linkedin.com/in/puneet-chhabra-3089b621b/" className='text-4xl  font-bold underline underline-offset-2'>
             Dr. Gayatri Ahuja
@@ -29,9 +29,13 @@ const AboutUs = () => {
 
 
       {/* Second Section */}
-      <div className='flex justify-center items-center py-10 text-black'>
+      <div className='flex sm:flex-row flex-col justify-center items-center py-8 text-black'>
+      <div className='w-80 mx-10 h-96 sm:w-0 sm:h-0 '>
+            <img src={tamana} className='h-full w-full'>
+            </img>
+        </div>
       
-        <div className='w-10/12 sm:w-96 h-full  flex  justify-center '>
+        <div className='w-10/12 sm:w-96 h-full  flex  justify-center py-4'>
 
           <div className=''>
             <h1 className='text-xl  font-semibold  underline-offset-2  '>
@@ -45,7 +49,7 @@ const AboutUs = () => {
               </p>
           </div>
         </div>
-        <div className='w-80 mx-10 h-96   '>
+        <div className='sm:w-80 mx-10 sm:h-96  w-0 h-0 '>
             <img src={tamana} className='h-full w-full'>
             </img>
         </div>
