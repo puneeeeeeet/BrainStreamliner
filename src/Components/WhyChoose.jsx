@@ -2,7 +2,7 @@ import React from 'react'
 
 const WhyChoose = () => {
   return (
-    <div>
+    <div className='bg-[#FFF8DB]'>
             <div className='flex items-center justify-center text-4xl font-serif underline underline-offset-2 pt-10'>
                     Why Choose Us
             </div>
