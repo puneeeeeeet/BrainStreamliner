@@ -4,7 +4,7 @@ import tamana from '../assets/tamana.jpg';
 
 const Intro = () => {
   return (
-    <div className='items-center  flex-col flex sm:flex-row justify-center gap-5 py-14 sm:h-screen'>
+    <div className='items-center  flex-col flex sm:flex-row justify-center gap-5 py-14 sm:h-screen '>
       {/* Image */}
         <div className='w-10/12 mx-10 h-96 sm:w-96 sm:h-full '>
             <img src={tamana} className='w-full h-full'>
