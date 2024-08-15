@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="bg-[#eaeaea] ">
       {/* bg-[#D2E9E9]   */}
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <Routes>
         <Route path='AboutUs' element={<AboutUs></AboutUs>}/>
         <Route path="/" element={<Home></Home>} />

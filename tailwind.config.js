@@ -9,7 +9,15 @@ module.exports = {
       'black':"#000000",
       "white": "#ffffff"
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        customFont: ["Champagne Limousines", "sans-serif"],
+        // Add more custom font families as needed
+      },
+      animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
+      },
+    },
   },
   plugins: [],
 }
