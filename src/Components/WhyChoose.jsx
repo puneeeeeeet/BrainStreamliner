@@ -7,8 +7,9 @@ import { SmartClass } from "../icons/SmartClass";
 
 const WhyChoose = () => {
   return (
-    <div className="bg-[#FFF8DB] pb-20">
-      <div className="flex items-center justify-center text-4xl font-serif underline underline-offset-2 pt-20">
+    <div className="bg-[#FFF8DB] pb-20 text-[#543310]">
+      <div className="flex items-center justify-center text-3xl sm:text-5xl font-customFont
+       underline underline-offset-2 pt-20 font-bold text-[#7d8abc] animate-fadeinup">
         Why Choose Us
       </div>
 
@@ -19,27 +20,29 @@ const WhyChoose = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center flex-col sm:flex-row px-8 gap-6">
-        <div className="sm:w-80 w-full  h-96 flex items-center justify-center  flex-col border-2 border-[#304463] rounded-md">
+      <div className="flex items-center justify-center flex-col  sm:flex-row px-8 gap-6">
+        <div className="sm:w-80 w-full  h-96 flex items-center justify-center  flex-col 
+        border-4 border-white  rounded-md hover:animate-bounce">
           <Icon icon={Guideance} color="blue" className="w-24 h-24">
             Image
             {/* IMAGE */}
           </Icon>
-          <div className="text-2xl py-5 text-[#304463] ">
+          <div className="text-2xl py-5  font-semibold">
             Guest Lectures
             {/* HEADING */}
           </div>
-          <div className="text-xl text-center px-2 text-[#304463]">
+          <div className="text-xl text-center px-2 ">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry'sof type and
           </div>
         </div>
 
-        <div className="sm:w-80 w-full  h-96 flex items-center justify-center  flex-col border-2 border-black rounded-md">
+        <div className="sm:w-80 w-full  h-96 flex items-center justify-center  
+        flex-col border-4 border-white rounded-md hover:animate-bounce">
           <Icon icon={SmartClass} className="w-24 h-24  ">
             {/* IMAGE */}
           </Icon>
-          <div className="text-2xl py-5 ">
+          <div className="text-2xl py-5  font-semibold">
             Smart Class Room
             {/* HEADING */}
           </div>
@@ -49,12 +52,13 @@ const WhyChoose = () => {
           </div>
         </div>
 
-        <div className="sm:w-80 w-full  h-96 flex items-center justify-center  flex-col border-2 border-black rounded-md">
+        <div className="sm:w-80 w-full  h-96 flex items-center justify-center  
+        flex-col border-4 border-white rounded-md hover:animate-bounce">
           <Icon icon={WorkShop} className="w-24 h-24" size="large">
             {/* IMAGE */}
           </Icon>
-          <div className="text-2xl py-5 ">
-            {" "}
+          <div className="text-2xl py-5  font-semibold">
+            
             Training and Workshops
             {/* HEADING */}
           </div>
@@ -64,12 +68,13 @@ const WhyChoose = () => {
           </div>
         </div>
 
-        <div className="sm:w-80 w-full  h-96 flex items-center justify-center  flex-col border-2 border-black rounded-md">
+        <div className="sm:w-80 w-full  h-96 flex items-center justify-center 
+        flex-col border-4 border-white rounded-md hover:animate-bounce">
           <Icon icon={Girl} className="w-24 h-24 " color="blue">
             {/* IMAGE */}
           </Icon>
-          <div className="text-2xl py-5 ">
-            {" "}
+          <div className="text-2xl py-5 font-semibold ">
+          
             Councelling & Guidence
             {/* HEADING */}
           </div>

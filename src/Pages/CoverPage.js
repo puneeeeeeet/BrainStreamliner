@@ -1,23 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from '../assets/logo.png'
-
-
+// text-[#89CFF0]
 const CoverPage = () => {
   return (
-    <div className='w-screen h-screen'>
-        <div className='h-1/2 bg-white'>
-            <div className=' flex flex-col items-center justify-center text-4xl font-customFont font-semibold h-full bg-[#89CFF0] text-white'>
-            <img className=' w-32 pb-10' src={logo} alt=""  height={80} width={75}/>
+    <div className='w-screen h-screen sm:flex'>
+        <div className='h-4/6 sm:w-8/12 sm:h-full bg-white'>
+            <div className='flex flex-col items-center justify-center sm:text-7xl text-4xl 
+            font-customFont font-semibold h-full text-[#7d8abc] bg-[#FFF8DB] '>
+            <img className='w-32 pb-10 ' src={logo} alt=""  height={80} width={75}/>
      
-                <h1 className='animate-bounce '>
+                <div className='animate-fadeIn  '>
                 BrainStreamliner
-                </h1>
+                </div>
                 
-                <Link className='p-2 border-white rounded-lg border-2 px-4 text-xl font-normal mt-5 animate-pulse'> Contact Us
+                <Link className='p-2 border-[#7D8ABC]  text-[#7D8ABC] font-semibold rounded-lg border-2 px-4 text-xl
+                  mt-10 animate-bounce'> Contact Us
                 </Link>
-            </div>
-           
+            </div>   
         </div> 
     </div>
   )
