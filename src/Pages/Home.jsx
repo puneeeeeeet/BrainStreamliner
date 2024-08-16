@@ -1,16 +1,16 @@
 import React from 'react'
-import Slider from '../Components/Slider';
-import Intro from '../Components/Introduction';
 import WhyChoose from '../Components/WhyChoose';
 import CoverPage from './CoverPage';
+import Philosophy from '../Components/Philosophy';
 
         
 const Home = () => {
   return (
     <div>
-      <CoverPage>
-      </CoverPage>
-        <WhyChoose></WhyChoose>
+      <CoverPage />
+      <Philosophy />
+      <WhyChoose />
+
     </div>
   )
 }

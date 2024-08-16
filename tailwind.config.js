@@ -9,11 +9,14 @@ module.exports = {
       'black':"#000000",
       "white": "#ffffff"
     },
+    fontFamily: {
+      'customFont': ["Champagne Limousines", "sans-serif"],
+     'philo':["Ppgatwick","sans-serif"],
+      'ital':["Oswald","sans-serif"],
+      // Add more custom font families as needed
+    },
     extend: {
-      fontFamily: {
-        customFont: ["Champagne Limousines", "sans-serif"],
-        // Add more custom font families as needed
-      },
+      
       animation: {
         wiggle: 'wiggle 1s ease-in-out infinite',
         fadeIn: 'fadeIn 2s ease-out',

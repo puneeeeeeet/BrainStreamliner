@@ -7,7 +7,7 @@ const CoverPage = () => {
     <div className='w-screen h-screen sm:flex'>
         <div className='h-4/6 sm:w-8/12 sm:h-full bg-white'>
             <div className='flex flex-col items-center justify-center sm:text-7xl text-4xl 
-            font-customFont font-semibold h-full text-[#7d8abc] bg-[#FFF8DB] '>
+            font-customFont font-semibold h-full text-[#7d8abc] bg-[#E5E4E2] '>
             <img className='w-32 pb-10 ' src={logo} alt=""  height={80} width={75}/>
      
                 <div className='animate-fadeIn  '>

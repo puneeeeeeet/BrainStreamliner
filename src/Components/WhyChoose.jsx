@@ -7,7 +7,7 @@ import { SmartClass } from "../icons/SmartClass";
 
 const WhyChoose = () => {
   return (
-    <div className="bg-[#FFF8DB] pb-20 text-[#543310]">
+    <div className="bg-[#E5E4E2] pb-20 text-[#543310]">
       <div className="flex items-center justify-center text-3xl sm:text-5xl font-customFont
        underline underline-offset-2 pt-20 font-bold text-[#7d8abc] animate-fadeinup">
         Why Choose Us
@@ -15,8 +15,7 @@ const WhyChoose = () => {
 
       <div className="flex items-center justify-center p-20">
         <div className="text-xl  text-center w-72 ">
-          Psychopedia promises you to bring the best teaching methods and
-          enhance your well-being
+        Streamlining the path to mental well-being while shaping the next generation of psychology professionals.
         </div>
       </div>
 
@@ -28,13 +27,12 @@ const WhyChoose = () => {
             {/* IMAGE */}
           </Icon>
           <div className="text-2xl py-5  font-semibold">
-            Guest Lectures
+          Expert-Led Training
             {/* HEADING */}
           </div>
           <div className="text-xl text-center px-2 ">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry'sof type and
-          </div>
+          Learn from seasoned professionals with extensive experience in various fields of psychology.
+            </div>
         </div>
 
         <div className="sm:w-80 w-full  h-96 flex items-center justify-center  
@@ -43,13 +41,12 @@ const WhyChoose = () => {
             {/* IMAGE */}
           </Icon>
           <div className="text-2xl py-5  font-semibold">
-            Smart Class Room
+          Holistic Approach
             {/* HEADING */}
           </div>
           <div className="text-xl text-center px-2">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry'sof type and
-          </div>
+          We believe in a well-rounded education, combining theoretical knowledge with practical skills.
+            </div>
         </div>
 
         <div className="sm:w-80 w-full  h-96 flex items-center justify-center  
@@ -59,30 +56,28 @@ const WhyChoose = () => {
           </Icon>
           <div className="text-2xl py-5  font-semibold">
             
-            Training and Workshops
+          Community & Support
             {/* HEADING */}
           </div>
           <div className="text-xl text-center px-2">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry'sof type and
-          </div>
+          Join a network of like-minded individuals, with opportunities for collaboration, networking, and support.
+            </div>
         </div>
 
-        <div className="sm:w-80 w-full  h-96 flex items-center justify-center 
+        {/* <div className="sm:w-80 w-full  h-96 flex items-center justify-center 
         flex-col border-4 border-white rounded-md hover:animate-bounce">
           <Icon icon={Girl} className="w-24 h-24 " color="blue">
-            {/* IMAGE */}
+            
           </Icon>
           <div className="text-2xl py-5 font-semibold ">
           
             Councelling & Guidence
-            {/* HEADING */}
+            
           </div>
           <div className="text-xl text-center px-2">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry'sof type and
-          </div>
-        </div>
+          We conduct career counselling, psychometric testing,one-to-one workshops in Schools.
+            </div>
+        </div> */}
       </div>
     </div>
   );
