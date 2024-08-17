@@ -3,6 +3,7 @@ import WhyChoose from '../Components/WhyChoose';
 import CoverPage from './CoverPage';
 import Philosophy from '../Components/Philosophy';
 import WhatWeDo from '../Components/WhatWeDo';
+import Testing from './Testing';
 
         
 const Home = () => {
@@ -10,9 +11,10 @@ const Home = () => {
     <div>
       <CoverPage />
       <Philosophy />
-      
-      <WhyChoose />
       <WhatWeDo />
+      <WhyChoose />
+      {/* <Testing /> */}
+      
     
     </div>
   )
