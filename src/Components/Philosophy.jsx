@@ -16,7 +16,7 @@ const Philosophy = () => {
             However, the battles of the mind are not spoken of, nor is help sought for them. The most we hear are hushed whispers in family events or cathartic cries for help on the latest social media platform that is trending. And where does help for the mind lie?
             </p>
             <p className='w-1/2 mt-5'>
-                -Gauri Ahuja
+                -Gayatri Ahuja
             </p>
         </div>
         <div>
