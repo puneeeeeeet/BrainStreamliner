@@ -17,10 +17,10 @@ const WhatWeDo = () => {
   }, []);
   return (
     <>
-    <div className='w-screen h-[400vh] sm:h-[250vh] flex sm:flex-row flex-col text-blue  bg-white relative pb-44'>
+    <div className='w-screen h-[300vh] sm:h-[250vh] flex sm:flex-row flex-col text-blue  bg-white relative pb-44'>
         <div className='  sm:w-1/2 w-full sm:flex sm:items-center  flex-col gap-5'>
         
-        <div className='sticky top-0 sm:top-48  sm:ml-40 sm:pb-40 mt-40 sm:w-full w-11/12 ml-4' >
+        <div className='sticky top-0 sm:top-56  sm:ml-40 sm:pb-40 mt-56 sm:w-full w-11/12 ml-4' >
           <div className='flex flex-col w-1/2 text-xl'>
         <p>
             What do we
@@ -54,43 +54,43 @@ const WhatWeDo = () => {
           </div>
 
           {/* Third Card */}
-          <div className=' flex sticky top-40 sm:top-60   h-[100vh] w-10/12 mb-24 sm:mb-32 items-center justify-center'>  
+          <div className=' flex sticky top-40 sm:top-60    w-10/12 mb-24 sm:mb-32 items-center justify-center'>  
          <div className=' w-1/2 h-20 bg-[#FFF8DB] rounded-xl'>
          Depression
          </div> 
           </div>
           {/* Fourth Card */}
-          <div className=' flex sticky top-44 sm:top-64  h-[50vh] w-10/12 mb-24 sm:mb-32 items-center justify-center'>  
+          <div className=' flex sticky top-44 sm:top-64  w-10/12 mb-24 sm:mb-32 items-center justify-center'>  
          <div className=' w-1/2 h-20 bg-[#304463] rounded-xl'>
          Depression
          </div> 
           </div>
           {/* Fifth card */}
-          <div className=' flex sticky top-48 sm:top-64  h-[50vh] w-10/12 mb-24 sm:mb-32 items-center justify-center'>  
+          <div className=' flex sticky top-48 sm:top-64   w-10/12 mb-24 sm:mb-32 items-center justify-center'>  
          <div className=' w-1/2 h-20 bg-[#FF8A8A] rounded-xl'>
          Depression
          </div> 
           </div>
           {/* Sixth Card */}
-          <div className=' flex sticky top-36 sm:top-64  h-[50vh] w-10/12 mb-24 sm:mb-28 items-center justify-center'>  
+          <div className=' flex sticky top-52 sm:top-64   w-10/12 mb-24 sm:mb-28 items-center justify-center'>  
          <div className=' w-1/2 h-20 bg-[#FFAD60] rounded-xl'>
          Depression
          </div> 
           </div>
           {/* Seventh Card */}
-          <div className=' flex sticky top-36 sm:top-72  h-[50vh] w-10/12 mb-24 sm:mb-28 items-center justify-center'>  
+          <div className=' flex sticky top-56 sm:top-72   w-10/12 mb-24 sm:mb-28 items-center justify-center'>  
          <div className=' w-1/2 h-20 bg-[#A2CA71] rounded-xl'>
          Depression
          </div> 
           </div>
           {/* Eigth Card */}
-          <div className=' flex sticky top-36 sm:top-72  h-[50vh] w-10/12 mb-24 sm:mb-28 items-center justify-center'>  
+          <div className=' flex sticky top-60 sm:top-72   w-10/12 mb-24 sm:mb-28 items-center justify-center '>  
          <div className=' w-1/2 h-20 bg-[#BB9AB1] rounded-xl'>
          Depression
          </div> 
           </div>
           {/* Ninth Card */}
-          <div className=' flex sticky top-36 sm:top-72  h-[50vh] w-10/12 mb-60 items-center justify-center'>  
+          <div className=' flex sticky top-60 sm:top-72  w-10/12 mb-24 sm:mb-60 items-center justify-center '>  
          <div className=' w-1/2 h-20 bg-blue rounded-xl'>
          Depression
          </div> 
