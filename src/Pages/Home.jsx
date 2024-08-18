@@ -4,6 +4,7 @@ import CoverPage from './CoverPage';
 import Philosophy from '../Components/Philosophy';
 import WhatWeDo from '../Components/WhatWeDo';
 import Testing from './Testing';
+import About from '../Components/About';
 
         
 const Home = () => {
@@ -11,8 +12,10 @@ const Home = () => {
     <div>
       <CoverPage />
       <Philosophy />
-      <WhatWeDo />
       <WhyChoose />
+      <WhatWeDo />
+      
+      <About />
       {/* <Testing /> */}
       
     
