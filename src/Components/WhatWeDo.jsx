@@ -135,7 +135,7 @@ const WhatWeDo = () => {
 
   return (
     <>
-      <div className='w-screen h-[300vh] sm:h-[350vh] flex sm:flex-row flex-col text-blue bg-white relative pb-44'>
+      <div className='w-screen h-[300vh] sm:h-[400vh] flex sm:flex-row flex-col text-blue bg-white relative pb-44'>
         <div className='sm:w-1/2 w-full sm:flex sm:items-center flex-col gap-5'>
           <div className='sticky top-0 sm:top-56 sm:ml-40 sm:pb-40 mt-56 sm:w-full w-11/12 ml-4'>
             <div className='flex flex-col w-1/2 text-xl'>
