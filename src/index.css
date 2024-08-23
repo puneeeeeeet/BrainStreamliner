@@ -14,3 +14,11 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navbar{
+  @apply h-0 w-0
+}
+.navbar.active{
+  @apply bg-[#004aad] fixed top-0 flex justify-between items-center h-24  mx-auto px-4 text-white w-full z-10
+}
+

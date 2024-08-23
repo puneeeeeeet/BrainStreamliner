@@ -5,11 +5,13 @@ import Philosophy from '../Components/Philosophy';
 import WhatWeDo from '../Components/WhatWeDo';
 import Testing from './Testing';
 import About from '../Components/About';
+import Navbar from '../Components/Navbar';
 
         
 const Home = () => {
   return (
     <div>
+      <Navbar  /> 
       <CoverPage />
       <Philosophy />
       <WhyChoose />

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import logo from '../assets/logo.png'
 import {Link } from 'react-router-dom'
@@ -6,12 +6,25 @@ import {Link } from 'react-router-dom'
 const Navbar = () => {
   // State to manage the navbar's visibility
   const [nav, setNav] = useState(false);
+  const [navBack, setNavBack] =useState(false);
 
   // Toggle function to handle the navbar's display
   const handleNav = () => {
     setNav(!nav);
   };
-
+  const changeBackground =()=>{
+    if(window.scrollY>700){
+      setNavBack(true)
+    }else{
+      setNavBack(false)
+    }
+  }
+  useEffect(() => {
+    window.addEventListener('scroll', changeBackground);
+    return () => {
+      window.removeEventListener('scroll', changeBackground);
+    };
+  }, []);
   // Array containing navigation items
   const navItems = [
     { id: 1, text: 'Home', path:'/' },
@@ -25,10 +38,10 @@ const Navbar = () => {
   ];
 
   return (
-    <div className='bg-[#7D8ABC] flex justify-between items-center h-24  mx-auto px-4 text-white'>
+    <div className={navBack  ? 'navbar active' :'navbar'}>
 
-      <img className=' ' src={logo} alt=""  height={80} width={75}/>
-      <a href='/' className='w-full text-3xl font-bold text-[#FFF8DB] font-mono ml-4'>Brain Streamliner</a >
+      {/* <img className=' ' src={logo} alt=""  height={80} width={75}/> */}
+      <a href='/' className={navBack ? 'w-full text-3xl font-bold text-[#FFF8DB] font-mono ml-4':'hidden'}>Brain Streamliner</a >
 
       {/* Desktop Navigation */}
       <ul className='hidden md:flex'>
@@ -43,7 +56,7 @@ const Navbar = () => {
       </ul>
 
       {/* Mobile Navigation Icon */}
-      <div onClick={handleNav} className='block md:hidden'>
+      <div onClick={handleNav} className={navBack ? "block md:hidden z-10 ": "hidden"}>
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
       </div>
 
@@ -51,12 +64,12 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? 'fixed md:hidden left-0 top-0 w-[70%] h-full  bg-[#7D8ABC] ease-in-out duration-500'
+            ? 'fixed md:hidden left-0 top-0 w-[70%] h-full  bg-[#7D8ABC] ease-in-out duration-500 z-20'
             : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
         }
       >
         {/* Mobile Logo */}
-        <h1 className='w-full text-2xl font-bold text-[#FFF8DB] m-4'>Brain Streamliner</h1>
+        {/* <h1 className='w-full text-2xl font-bold text-[#FFF8DB] m-4'>Brain Streamliner</h1> */}
 
         {/* Mobile Navigation Items */}
         {navItems.map(item => (
