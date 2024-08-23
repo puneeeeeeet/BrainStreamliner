@@ -22,3 +22,11 @@ code {
   @apply bg-[#004aad] fixed top-0 flex justify-between items-center h-24  mx-auto px-4 text-white w-full z-10
 }
 
+.blackBox{
+  @apply h-40 w-40 rounded-t-xl bg-black
+}
+
+.sideBox{
+  @apply w-1/2 h-20 bg-[#004aad] rounded-r-xl flex items-center justify-center text-2xl font-semibold border-white border-t-2
+}
+/* bg-[#FFAD60] */
