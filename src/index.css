@@ -23,7 +23,7 @@ code {
 }
 
 .blackBox{
-  @apply h-40 w-40 rounded-t-xl bg-black
+  @apply h-40 w-44 rounded-t-xl bg-black flex items-center justify-center text-nowrap
 }
 
 .sideBox{

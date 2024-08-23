@@ -118,7 +118,7 @@
 import React, { useState, useEffect } from 'react';
 
 const WhatWeDo = () => {
-  const [scrollIndex, setScrollIndex] = useState(0);
+  const [scrollIndex, setScrollIndex] = useState(0);  
 
   const handleScroll = () => {
     const scrollY = window.scrollY;
@@ -140,7 +140,7 @@ const WhatWeDo = () => {
           <div className='sticky top-0 sm:top-56 sm:ml-40 sm:pb-40 mt-56 sm:w-full w-11/12 ml-4'>
             <div className='flex flex-col w-1/2 text-xl'>
               <p>What do we</p>
-              <p className='text-3xl font-semibold '>help with?</p>
+              <p className='text-3xl font-semibold '>help with?</p> 
             </div>
             <p className='sm:w-1/2 sm:11/12 text-black text-lg text-justify'>
               Over 180 million Indians, or 14 per cent of the population, live with mental health issues. Many more suffer silently. Some are ashamed of seeking help. Some are afraid. Some cannot access the help they need.
@@ -158,8 +158,8 @@ const WhatWeDo = () => {
               className='flex sticky w-10/12 mb-24 items-end justify-center'
               style={{ top: `${150 + index * 5}px` }}  // Adjust this value for overlap
             >
-              <div className='blackBox'></div>
-              <div className='sideBox'>{text}</div>
+              <div className='blackBox'>{text}</div>
+              <div className='sideBox'></div>
             </div>
           ))}
 
