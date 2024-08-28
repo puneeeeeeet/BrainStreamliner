@@ -44,17 +44,23 @@ const Navbar = () => {
       <a href='/' className={navBack ? 'w-full text-3xl font-bold text-[#FFF8DB] font-mono ml-4':'hidden'}>Brain Streamliner</a >
 
       {/* Desktop Navigation */}
-      <ul className='hidden md:flex'>
-        {navItems.map(item => (
+      {/* <ul className='hidden md:flex'> */}
+
+      {/* ICON FOR NAVIGAYION OPEN AND CLOSE */}
+      <div className='hidden md:flex' onClick={handleNav}>
+      {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+      </div>
+      
+        {/* {navItems.map(item => (
           <Link to={item.path}
             key={item.id}
             className='px-5 py-4 hover:bg-[#304463] rounded-xl m-2 text-[#FFF8DB] cursor-pointer duration-300 text-nowrap hover:text-[#FFF8DB]'
           >
             {item.text}
           </Link>
-        ))}
-      </ul>
-
+        ))} */}
+          {/* </ul> */}
+          
       {/* Mobile Navigation Icon */}
       <div onClick={handleNav} className={navBack ? "block md:hidden z-10 ": "hidden"}>
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
