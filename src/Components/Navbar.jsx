@@ -52,7 +52,7 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? 'fixed left-0 top-24 w-full h-[80%]  bg-[#7D8ABC] animate-fadeindown duration-500 z-20 '
+            ? 'fixed left-0 top-24 w-full h-[70%]  bg-[#7D8ABC] animate-fadeindown duration-500 z-20 rounded-b-2xl '
             : 'hidden fixed'
         }
       >
