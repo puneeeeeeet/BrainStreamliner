@@ -40,7 +40,6 @@ const Navbar = () => {
   return (
     <div className={navBack  ? 'navbar active' :'navbar'}>
 
-      {/* <img className=' ' src={logo} alt=""  height={80} width={75}/> */}
       <a href='/' className={navBack ? 'w-full text-3xl font-bold text-[#FFF8DB] font-mono ml-4':'hidden'}>Brain Streamliner</a >
 
       {/* Desktop Navigation */}
@@ -49,6 +48,27 @@ const Navbar = () => {
       {/* ICON FOR NAVIGAYION OPEN AND CLOSE */}
       <div className='hidden md:flex' onClick={handleNav}>
       {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+      
+      <ul
+        className={
+          nav
+            ? 'fixed left-0 top-24 w-full h-[80%]  bg-[#7D8ABC] animate-fadeindown duration-500 z-20 '
+            : 'hidden fixed'
+        }
+      >
+        {/* Mobile Logo */}
+        {/* <h1 className='w-full text-2xl font-bold text-[#FFF8DB] m-4'>Brain Streamliner</h1> */}
+
+        {/* Mobile Navigation Items */}
+        {navItems.map(item => (
+          <Link to={item.path}
+          onClick={handleNav}
+            key={item.id}
+            className='p-4  ml-11 w-48  flex rounded-xl hover:bg-[#304463] duration-300 hover:text-[#FFF8DB] cursor-pointer '>
+            {item.text}
+          </Link>
+        ))}
+      </ul>
       </div>
       
         {/* {navItems.map(item => (
