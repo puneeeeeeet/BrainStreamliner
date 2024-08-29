@@ -17,9 +17,9 @@ module.exports = {
       animation: {
         wiggle: "wiggle 1s ease-in-out infinite",
         fadeIn: "fadeIn 2s ease-out",
-        fadeinup: "fade-in-up 1s ease-in-out 0.25s 1",
         fadeindown: "fade-in-down 1s  1",
-        fadeinup: 'fade-in-up 1s ease-in-out 0.25s 1',
+        fadeinup: "fade-in-up 1.5s  ease-out 0.25s 1",
+        zoomInUp: 'zoom-in-up 1s ease-out 0.25s 1',
       },
       keyframes: {
         fadeIn: {
@@ -54,6 +54,20 @@ module.exports = {
           "100%": {
             opacity: 1,
             transform: "translate3d(0, 0, 0)",
+          },
+        },
+        "zoom-in-up": {
+          "0%": {
+            opacity: 0,
+            transform: "scale3d(0.3, 0.3, 0.3) translate3d(0, 100%, 0)",
+          },
+          "80%": {
+            opacity: 0.8,
+            transform: "scale3d(1.1, 1.1, 1.1)",
+          },
+          "100%": {
+            opacity: 1,
+            transform: "translate3d(0, 0%, 0)",
           },
         },
       },

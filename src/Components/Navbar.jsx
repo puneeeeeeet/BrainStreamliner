@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-import logo from '../assets/logo.png'
 import {Link } from 'react-router-dom'
 
 const Navbar = () => {
@@ -71,16 +70,6 @@ const Navbar = () => {
       </ul>
       </div>
       
-        {/* {navItems.map(item => (
-          <Link to={item.path}
-            key={item.id}
-            className='px-5 py-4 hover:bg-[#304463] rounded-xl m-2 text-[#FFF8DB] cursor-pointer duration-300 text-nowrap hover:text-[#FFF8DB]'
-          >
-            {item.text}
-          </Link>
-        ))} */}
-          {/* </ul> */}
-          
       {/* Mobile Navigation Icon */}
       <div onClick={handleNav} className={navBack ? "block md:hidden z-10 ": "hidden"}>
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
@@ -94,9 +83,7 @@ const Navbar = () => {
             : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
         }
       >
-        {/* Mobile Logo */}
-        {/* <h1 className='w-full text-2xl font-bold text-[#FFF8DB] m-4'>Brain Streamliner</h1> */}
-
+      
         {/* Mobile Navigation Items */}
         {navItems.map(item => (
           <Link to={item.path}
