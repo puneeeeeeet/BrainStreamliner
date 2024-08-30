@@ -3,7 +3,6 @@ import WhyChoose from '../Components/WhyChoose';
 import CoverPage from './CoverPage';
 import Philosophy from '../Components/Philosophy';
 import WhatWeDo from '../Components/WhatWeDo';
-import Testing from './Testing';
 import About from '../Components/About';
 import Navbar from '../Components/Navbar';
 
@@ -26,8 +25,3 @@ const Home = () => {
 }
 
 export default Home
-
-
-
-{/* <Slider></Slider> */}
-        {/* <Intro></Intro> */}

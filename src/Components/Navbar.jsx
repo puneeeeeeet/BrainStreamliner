@@ -39,7 +39,7 @@ const Navbar = () => {
   return (
     <div className={navBack  ? 'navbar active' :'navbar'}>
 
-      <a href='/' className={navBack ? 'w-full text-3xl font-bold text-[#FFF8DB] font-mono ml-4':'hidden'}>Brain Streamliner</a >
+      <div  className={navBack ? 'w-full text-3xl font-bold text-[#FFF8DB] font-mono ml-4':'hidden'}>Brain Streamliner</div >
 
       {/* Desktop Navigation */}
       {/* <ul className='hidden md:flex'> */}
@@ -51,7 +51,7 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? 'fixed left-0 top-24 w-full h-[70%]  bg-[#7D8ABC] animate-fadeindown duration-500 z-20 rounded-b-2xl '
+            ? 'fixed left-0 top-24 w-full h-[80%]   bg-[#F7F7F8] animate-fadeindown duration-500 z-20 rounded-b-2xl text-[#7EA1FF] font-semibold text-xl'
             : 'hidden fixed'
         }
       >
@@ -63,7 +63,7 @@ const Navbar = () => {
           <Link to={item.path}
           onClick={handleNav}
             key={item.id}
-            className='p-4  ml-11 w-48  flex rounded-xl hover:bg-[#304463] duration-300 hover:text-[#FFF8DB] cursor-pointer '>
+            className='p-4  ml-11 w-48 mt-2  flex rounded-xl hover:bg-[#7EA1FF]  duration-300 hover:text-white cursor-pointer '>
             {item.text}
           </Link>
         ))}
@@ -79,7 +79,7 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? 'fixed md:hidden left-0 top-0 w-[70%] h-full  bg-[#7D8ABC] ease-in-out duration-500 z-20'
+            ? 'fixed md:hidden left-0 top-0 w-[70%] h-full  bg-[#7EA1FF] ease-in-out duration-500 z-20'
             : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
         }
       >
@@ -89,7 +89,7 @@ const Navbar = () => {
           <Link to={item.path}
           onClick={handleNav}
             key={item.id}
-            className='p-4  flex rounded-xl hover:bg-[#304463] duration-300 hover:text-[#FFF8DB] cursor-pointer '>
+            className='p-4  flex rounded-xl hover:bg-[#004aad] duration-300 hover:text-[#FFF8DB] cursor-pointer '>
             {item.text}
           </Link>
         ))}
