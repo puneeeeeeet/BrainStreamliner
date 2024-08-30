@@ -11,7 +11,7 @@ const About = () => {
             <p className='text-2xl font-semibold'>About</p>
             <p className='text-4xl font-bold'>MindTalk</p>
             <p className='sm:w-3/4 text-justify text-lg font-medium'> 
-            Mindtalk’s origins are what set it apart from other young mental healthcare providers. Mindtalk finds its origins in the Cadabams Group, India’s largest private mental healthcare provider. Mindtalk is an effort to transform the unidimensional idea of therapy into a multidimensional healing experience.
+            Brain Streamliner’s origins are what set it apart from other young mental healthcare providers. Brain Streamliner finds its origins in the Cadabams Group, India’s largest private mental healthcare provider.  Brain Streamliner is an effort to transform the unidimensional idea of therapy into a multidimensional healing experience.
             </p>
         </div>
         </div>
