@@ -15,7 +15,7 @@ const Philosophy = () => {
             <p className='w-10/12 sm:w-1/2 mt-10 text-justify '>
             However, the battles of the mind are not spoken of, nor is help sought for them. The most we hear are hushed whispers in family events or cathartic cries for help on the latest social media platform that is trending. And where does help for the mind lie?
             </p>
-            <p className='w-1/2 mt-5'>
+            <p className='w-1/2 mt-5 font-semibold'>
                 -Gayatri Ahuja
             </p>
         </div>
