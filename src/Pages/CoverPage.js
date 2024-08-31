@@ -5,7 +5,7 @@ import  Video from '../assets/video.mp4'
 // text-[#89CFF0]
 const CoverPage = () => {
   return (
-    <div className='w-screen h-screen sm:flex bg-[#E5E4E2] '>
+    <div className='w-screen h-screen sm:flex bg-[#E5E4E2] font-customFont '>
         <div className='h-full sm:w-8/12 sm:h-full bg-[#E5E4E2]'>
             <div className='flex flex-col items-center justify-center sm:text-7xl text-4xl 
             font-customFont font-semibold h-full text-[#004aad] bg-[#E5E4E2] '>

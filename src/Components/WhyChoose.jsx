@@ -14,7 +14,7 @@ const WhyChoose = () => {
       </div>
 
       <div className="flex items-center justify-center p-20">
-        <div className="text-xl  text-center w-72 ">
+        <div className="text-xl  text-center w-72 font-medium">
         Streamlining the path to mental well-being while shaping the next generation of psychology professionals.
         </div>
       </div>

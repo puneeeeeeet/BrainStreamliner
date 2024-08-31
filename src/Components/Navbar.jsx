@@ -12,7 +12,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   const changeBackground =()=>{
-    if(window.scrollY>700){
+    if(window.scrollY>500){
       setNavBack(true)
     }else{
       setNavBack(false)
@@ -39,7 +39,7 @@ const Navbar = () => {
   return (
     <div className={navBack  ? 'navbar active' :'navbar'}>
 
-      <div  className={navBack ? 'w-full text-3xl font-bold text-[#FFF8DB] font-mono ml-4':'hidden'}>Brain Streamliner</div >
+      <div  className={navBack ? 'w-full text-3xl font-bold text-[#FFF8DB] font-customFont   ml-4':'hidden'}>Brain Streamliner</div >
 
       {/* Desktop Navigation */}
       {/* <ul className='hidden md:flex'> */}

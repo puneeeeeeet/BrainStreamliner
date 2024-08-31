@@ -3,8 +3,8 @@ import React from 'react'
 const Philosophy = () => {
   return (
     <div className='w-screen min-h-screen bg-white '>
-        <div className='sm:w-1/2 flex items-center justify-center flex-col h-screen text-[#543310] text-lg'>
-        <div className='text-[#004aad] w-11/12 sm:w-1/2 ml-5 sm:ml-0'>
+        <div className='sm:w-1/2 flex items-center justify-center flex-col h-screen text-[#543310] font-medium'>
+        <div className='text-[#004aad] w-11/12 sm:w-1/2 ml-5 sm:ml-0 font-customFont'>
             <p className='text-3xl font-ital ml-1'>Our</p>
             <p className='sm:text-7xl text-5xl font-philo font-bold'>Philosophy</p>
             <p className='text-3xl font-ital ml-1'>of  Thought</p>
@@ -15,7 +15,7 @@ const Philosophy = () => {
             <p className='w-10/12 sm:w-1/2 mt-10 text-justify '>
             However, the battles of the mind are not spoken of, nor is help sought for them. The most we hear are hushed whispers in family events or cathartic cries for help on the latest social media platform that is trending. And where does help for the mind lie?
             </p>
-            <p className='w-1/2 mt-5 font-semibold'>
+            <p className='w-1/2 mt-5 font-bold'>
                 -Gayatri Ahuja
             </p>
         </div>

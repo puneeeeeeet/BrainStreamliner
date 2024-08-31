@@ -8,9 +8,8 @@ module.exports = {
       white: "#ffffff",
     },
     fontFamily: {
-      customFont: ["Champagne Limousines", "sans-serif"],
-      philo: ["Ppgatwick", "sans-serif"],
-      ital: ["Oswald", "sans-serif"],
+      customFont: ["Fondamento", 'cursive'],
+      
       // Add more custom font families as needed
     },
     extend: {
