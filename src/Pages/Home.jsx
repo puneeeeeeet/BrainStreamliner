@@ -5,6 +5,7 @@ import Philosophy from '../Components/Philosophy';
 import WhatWeDo from '../Components/WhatWeDo';
 import About from '../Components/About';
 import Navbar from '../Components/Navbar';
+import Footer from '../Components/Footer';
 
         
 const Home = () => {
@@ -15,8 +16,8 @@ const Home = () => {
       <Philosophy />
       <WhyChoose />
       <WhatWeDo />
-      
       <About />
+      <Footer/>
       {/* <Testing /> */}
       
     

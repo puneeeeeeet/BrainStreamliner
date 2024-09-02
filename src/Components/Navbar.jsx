@@ -12,7 +12,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   const changeBackground =()=>{
-    if(window.scrollY>500){
+    if(window.scrollY>600){
       setNavBack(true)
     }else{
       setNavBack(false)
@@ -51,7 +51,7 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? 'fixed left-0 top-24 w-full h-[80%]   bg-[#F7F7F8] animate-fadeindown duration-500 z-20 rounded-b-2xl text-[#7EA1FF] font-semibold text-xl'
+            ? 'fixed left-0 top-20 w-full h-[80%]   bg-[#F7F7F8] animate-fadeindown duration-500 z-20 rounded-b-2xl text-[#7EA1FF] font-semibold text-xl'
             : 'hidden fixed'
         }
       >
