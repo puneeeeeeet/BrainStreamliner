@@ -47,11 +47,11 @@ const Navbar = () => {
       {/* ICON FOR NAVIGAYION OPEN AND CLOSE */}
       <div className='hidden md:flex' onClick={handleNav}>
       {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
-      
+      {/* */}
       <ul
         className={
           nav
-            ? 'fixed left-0 top-20 w-full h-[80%]   bg-[#F7F7F8] animate-fadeindown duration-500 z-20 rounded-b-2xl text-[#7EA1FF] font-semibold text-xl'
+            ? 'fixed left-0 top-20 w-full h-[80%]   bg-[#F7F7F8] animate-fadeindown  duration-500  z-20 rounded-b-2xl text-[#7EA1FF] font-semibold text-xl'
             : 'hidden fixed'
         }
       >
