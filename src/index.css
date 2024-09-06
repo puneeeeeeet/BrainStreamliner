@@ -26,10 +26,10 @@ code {
 }
 
 .blackBox{
-  @apply  h-40 sm:h-40 w-36 sm:w-60 font-bold text-xl rounded-t-xl bg-[#7695FF] border-t-2 border-r-2 border-white flex items-center justify-center  
+  @apply  h-44 sm:h-40 w-36 sm:w-60 font-bold text-xl rounded-t-xl bg-[#7695FF] border-t-2 border-r-2 border-white flex items-center justify-center  
 }
 
 .sideBox{
-  @apply w-1/2 px-2 h-28 bg-[#D1D4C9] rounded-r-xl flex items-center justify-center text-black text-lg font-semibold border-white border-t-2
+  @apply w-4/5 px-2 h-36 bg-[#D1D4C9] rounded-r-xl flex items-center justify-center text-black text-lg font-semibold border-white border-t-2
 }
 /* bg-[#FFAD60] */
