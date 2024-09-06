@@ -12,7 +12,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   const changeBackground =()=>{
-    if(window.scrollY>600){
+    if(window.scrollY>700){
       setNavBack(true)
     }else{
       setNavBack(false)
@@ -51,7 +51,7 @@ const Navbar = () => {
       <ul
         className={
           nav
-            ? 'fixed left-0 top-20 w-full h-[80%]   bg-[#F7F7F8] animate-fadeindown  duration-500  z-20 rounded-b-2xl text-[#7EA1FF] font-semibold text-xl'
+            ? 'fixed left-0 top-20 w-full h-fit p-2   bg-[#F7F7F8] animate-fadeindown  duration-500  z-20 rounded-b-2xl text-[#7EA1FF] font-semibold text-xl'
             : 'hidden fixed'
         }
       >
@@ -63,7 +63,7 @@ const Navbar = () => {
           <Link to={item.path}
           onClick={handleNav}
             key={item.id}
-            className='p-4  ml-11 w-48 mt-2  flex rounded-xl hover:bg-[#7EA1FF]  duration-300 hover:text-white cursor-pointer '>
+            className='p-4  ml-11 w-48  gap-y-2 flex rounded-xl hover:bg-[#7EA1FF]  duration-300 hover:text-white cursor-pointer '>
             {item.text}
           </Link>
         ))}

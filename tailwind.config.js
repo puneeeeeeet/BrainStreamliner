@@ -2,7 +2,7 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    colors: {
+    colors: { 
       blue: "#004aad",
       black: "#000000",
       white: "#ffffff",
@@ -16,10 +16,10 @@ module.exports = {
       animation: {
         wiggle: "wiggle 1s ease-in-out infinite",
         fadeIn: "fadeIn 2s ease-out",
-        fadeindown: "fade-in-down 1s  1",
-        fadeinup: "fade-in-up 1.5s  ease-out 0.25s 1",
-        zoomInUp: "zoom-in-up 3s ease-out 0.25s 1",
-        fadeinright: 'fade-in-right 3s ease-in-out 0.25s 1',
+        fadeindown: "fade-in-down 0.7s  1 ",
+        fadeinup: "fade-in-up 2s  ease-out 0.25s 1",
+        zoomInUp: "zoom-in-up 1s ease-out 0.25s 1",
+        fadeinright: 'fade-in-right 1.5s ease-in-out 0.25s 1',
       },
       keyframes: {
         fadeIn: {

@@ -36,7 +36,7 @@ const CoverPage = () => {
           loop
           autoPlay
           muted
-          className="sm:rounded-l-full sm:mr-5  sm:m-1 sm:animate-fadeinright  sm:w-fit sm:h-fit"
+          className="sm:rounded-l-full  sm:m-1 sm:animate-fadeinright  sm:w-fit sm:h-fit"
         />
       </div>
     </div>
