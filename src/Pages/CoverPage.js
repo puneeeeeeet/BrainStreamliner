@@ -12,7 +12,7 @@ const CoverPage = () => {
           <img
             className="w-72 sm:pb-10 animate-zoomInUp mt-24 "
             src={logo}
-            alt=""
+            alt="lol"
             height={10}
             width={9}
           />
